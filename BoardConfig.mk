@@ -34,9 +34,6 @@ TARGET_KERNEL_CONFIG := lineageos_shinano_aries_defconfig
 BOARD_VOLD_MAX_PARTITIONS := 25
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12656242688 # 12656259072 - 16384
 
-# SELinux
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
-
 # Device-specific props
 TARGET_SYSTEM_PROP += device/sony/z3c/system.prop
 
